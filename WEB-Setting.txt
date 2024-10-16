@@ -1,0 +1,155 @@
+박세진 선생님 Park SeJin
+https://github.com/Divjason/sbsacademy_web
+
+수업자료
+1. 수업내용 : git-hub // commit // download
+2. slack : Q&A // Soruce 자료
+-------- -------- -------- -------- -------- -------- -------- -------- 
+Web01 HTML5 // CSS3
+Web02 HTML5 // CSS3 + animation 등
+Web03 HTML5 // CSS3 + api data 활용 등 (JQuery 일부)
+Web04 HTML5 // CSS3 // Javascript 역동적인 페이지 구현 등
+-------- -------- -------- -------- -------- -------- -------- -------- 
+Hyper Text Markup Language : Structure (구조)
+Cascading Style Sheet : Style (메이크업)
+> 내부스타일
+> 외부스타일 (거의 대부분 사용)
+> 인라인스타일
+
+웹에디터 : 웹 브라우저에 간단한 UI를 구현해줄 수 있도록 도와주는 도구 // 자동완성 // 단축키 설정
+- Atom // Brackets
+- MS VS CODE (Visual Studio Code)
+- 로컬컴퓨터
+
+IDE : 프론트엔드 
+
+개발자도구 Ctrl + Shift + J
+
+GUI : 클릭, 우클릭 등 직접 생성 방식
+CLI (Command Line Interface) : 명령어 실행 방식
+
+찾기 > cmd > 명령 프롬프트 실행
+
+C:\Users\Admin>cd desktop
+
+C:\Users\Admin\Desktop>mkdir web01
+
+C:\Users\Admin\Desktop>cd web01
+
+C:\Users\Admin\Desktop\web1>mkdir 241015
+
+C:\Users\Admin\Desktop\web1>cd 241015
+
+C:\Users\Admin\Desktop\web1\241015>code .
+
+
+-------- -------- 비주얼스튜디오코드 설치 -------- -------- 
+https://code.visualstudio.com/
+
+Root Folder : 이미지 경로 // 외부데이터
+
+설치 시 > 추가 작업 선택 > 기타 항목 네 개 모두 선택
+
+보일러 플레이트 (선언 양식) > emmet 
+
+설정 Ctrl ,-------- -------- -------- -------- -------- -------- 
+
+for
+Editor:Default Formatter  > Prettier 선택
+Editor: Format on Save 선택
+
+ta
+Editor: Tab Size > 2 변경 (필수)
+
+word
+Editor: Word Wrap > on
+
+zoom
+Editor: Mouse Wheel Zoom > 선택
+
+emmet
+Emmet: Variables > 항목추가 > 값 > ko 변경
+
+
+확장팩 -------- -------- -------- -------- -------- -------- 
+Live Server
+Korean Language Pack (선택 설치)
+One Dark Pro
+Material Icon Theme
+Prettier (필수 설치)
+indent rainbow
+
+
+-------- -------- 깃허브 -------- -------- 
+https://github.com/
+nouveau131@gmail.com // 77%
+
+git : IT 업계 종사한다면 무조건 활용
+- 형상기억관리 툴
+- 버전관리 툴
+
+> 개발업무 : 팀 작업 (개인 작업 X)
+> 다수 개발협업 && UI/UX => WB // PB
+> 업로드 // 작업 히스토리 백업 및 선택 가능
+
+로컬컴퓨터에서의 작업물
+
+원격저장소 : git-hub
+
+Repository : 레파지토리 (*저장공간)
+데이터 업로드 용량 제한
+1) 터미널 활용 : 100MB
+2) 수동 : 25MB
+-------- -------- -------- -------- -------- -------- -------- -------- 
+git-hub  생성된 원격저장소 레포지토리 주소!
+https://github.com/nouveau131/mark1
+-------- -------- -------- -------- -------- -------- -------- -------- 
+로컬컴퓨터 git 설치 확인
+cmd
+git -v
+
+https://git-scm.com/
+Git 다운로드 > 설치
+
+cmd > 관리자 권한으로 실행
+git -v
+git config --list
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+git config --global user.name "nouveau131"
+git config --global user.email "nouveau131@gmail.com"
+
+VScode > ctrl + ~ 
+터미널 > Git Bash
+
+cd .. : 현재 위치의 디렉토리 바로 위 상위 디렉토리 이동
+code .
+
+git init
+git add .
+
+로컬컴퓨터 > 다수의 프로젝트
+staging area : git-hub data를 옮기기 전에 로컬컴퓨터 안에 별도의 공간을 만들어서 버전 관리
+> 가장 최상위 루트폴더에 1개만 있어야 함.
+
+web01 > 241015 / 241016 ......
+
+
+
+ v2.47.0
+ 2 >앞뒤 버전이 호환이 안될 정도의 큰 업데이트 2번
+ 47 > 앞뒤 버전이 호환이 될 정도의 작은 업데이트 47번
+ 0 > 버그를 잡는 업데이트 0번
+
+-------- 폰트어썸 -------- 
+https://fontawesome.com/
+nouveau131@gmail.com // 77%
+
+-------- 슬릭슬라이더 -------- 
+https://kenwheeler.github.io/slick/
+
+-------- 라이브러리 종류 (업계에 따라 천차만별) -------- 
+swiper // slick // featherlight // gasp // anime // pageEffectScroll // three // chart
+
